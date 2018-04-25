@@ -1,0 +1,68 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.navigation ul {
+	padding: 5px 10px;
+}	
+
+header h1 {
+	font-size: 2em;
+	margin: 0;
+	padding: 25px;
+}
+
+nav.navigation {
+	background-color: blue; 
+	padding: 25px;
+	text-align: center;
+}
+
+.navigation ul li {
+	display: inline-block;
+	margin: 5px 25px;
+	padding: 5px 10px;
+}
+
+li a {
+	color: #FF0000;
+	text-decoration: underline;
+}
+
+div.box {
+	display: inline-block;
+	width: 30%;
+}
+
+div.box img {
+	width: 100%;
+}
+
+div.box p {
+	border: 3px;
+	padding: 15px;
+}
+
+section {
+	background-color: orange;
+	text-align: center;
+}
+
+p::first-letter {
+	color: green;
+	font-size: 40px;
+}
+
+footer {
+	background-color: blue;
+	padding: 15px;
+	text-align: center;
+}
+
+footer li {
+	display: inline-block;
+	margin: 5px 25px;
+	padding: 5px 10px;
+}
+
